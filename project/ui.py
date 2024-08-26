@@ -9,8 +9,8 @@ from PyQt5.QtWidgets import (
 from time import ctime
 from PyQt5.QtCore import Qt
 from PyQt5.QtGui import QStandardItemModel, QStandardItem
-from classes import *
-from core import *
+from project.classes import *
+from project.core import *
 
 class MainPage(QWidget):
     def __init__(self) -> None:

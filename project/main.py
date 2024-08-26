@@ -1,5 +1,5 @@
 from PyQt5.QtWidgets import QApplication
-from ui import *
+from project.ui import *
 
 def main():
     app = QApplication([])
